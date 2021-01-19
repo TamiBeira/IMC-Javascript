@@ -1,0 +1,15 @@
+.coleta {
+    display: flex;
+}
+#copo200, #copo500, #garrafa1000{
+    display: grid;
+    padding: 10px;
+}
+p{
+    text-align: center;
+    font-weight: 900;
+}
+
+#copo200:hover, #copo500:hover, #garrafa1000:hover{
+   transform: rotate(45deg);
+}
